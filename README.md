@@ -21,6 +21,7 @@ Console.Write("Произведение пар чисел" + " : ");
 
 int j = array.Length - 1;
 for (int i = 0; i < (array.Length + 1) / 2; i++)
+
 {
     Console.Write(array[i] * array[j] + " ");
     j--;
